@@ -9,7 +9,7 @@ public class MenuButtonControls : MonoBehaviour {
     }
 
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !uiManager.GameOverScreen.activeSelf && !uiManager.WinScreen.activeSelf)
             Pause();
     }
 
@@ -19,6 +19,7 @@ public class MenuButtonControls : MonoBehaviour {
 
     public void Resume() {
         Time.timeScale = 1f;
+        uiManager.ActivatePlayerScripts();
         uiManager.PauseScreen.SetActive(false);
     }
 

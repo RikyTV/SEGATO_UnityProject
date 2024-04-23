@@ -5224,7 +5224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3726114806654382043, guid: d06ea2abf1929014e9e082557bdf54f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: -7.8
       objectReference: {fileID: 0}
     - target: {fileID: 3726114806654382043, guid: d06ea2abf1929014e9e082557bdf54f2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6424,6 +6424,7 @@ MonoBehaviour:
   GameOverScreen: {fileID: 526616810}
   WinScreen: {fileID: 442282499}
   PauseScreen: {fileID: 1868041287}
+  Player: {fileID: 660741882}
 --- !u!114 &1069822933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7221,7 +7222,7 @@ Transform:
   m_GameObject: {fileID: 1181234527}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -3.9000015, y: 0.25, z: 0}
+  m_LocalPosition: {x: -3.9, y: 0.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10477,6 +10478,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Saw (X)
       objectReference: {fileID: 0}
+    - target: {fileID: 7885121363385239978, guid: 730cb9f2d66920442a3144c40a65a7f0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885121363385239978, guid: 730cb9f2d66920442a3144c40a65a7f0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1799486463
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12655,7 +12664,7 @@ Transform:
   m_GameObject: {fileID: 2074658099}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -3.9000015, y: 1.25, z: 0}
+  m_LocalPosition: {x: -3.9, y: 1.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13130,7 +13139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3726114806654382043, guid: d06ea2abf1929014e9e082557bdf54f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.800003
+      value: 7.8
       objectReference: {fileID: 0}
     - target: {fileID: 3726114806654382043, guid: d06ea2abf1929014e9e082557bdf54f2, type: 3}
       propertyPath: m_LocalPosition.y
