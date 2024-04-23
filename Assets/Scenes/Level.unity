@@ -2730,7 +2730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442282500}
   m_Layer: 0
-  m_Name: WinScreen
+  m_Name: GameWinScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6482,8 +6482,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -10478,14 +10478,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Saw (X)
       objectReference: {fileID: 0}
-    - target: {fileID: 7885121363385239978, guid: 730cb9f2d66920442a3144c40a65a7f0, type: 3}
-      propertyPath: m_SortingLayer
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7885121363385239978, guid: 730cb9f2d66920442a3144c40a65a7f0, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1799486463
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10506,7 +10498,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3932314527023620137, guid: f771b69b6f2eb5e4cb32fcae24ec854d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.0999985
+      value: -3.15
       objectReference: {fileID: 0}
     - target: {fileID: 3932314527023620137, guid: f771b69b6f2eb5e4cb32fcae24ec854d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13829,7 +13821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5823220102813863745, guid: ae684f3f2f909d849be246ac4a641de6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.7410011
+      value: -2.741
       objectReference: {fileID: 0}
     - target: {fileID: 5823220102813863745, guid: ae684f3f2f909d849be246ac4a641de6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13943,11 +13935,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8941406870968361700, guid: 797e6a29de480f04a99660ea0d7df5c6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7610016
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 8941406870968361700, guid: 797e6a29de480f04a99660ea0d7df5c6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.65771866
+      value: -0.66
       objectReference: {fileID: 0}
     - target: {fileID: 8941406870968361700, guid: 797e6a29de480f04a99660ea0d7df5c6, type: 3}
       propertyPath: m_LocalPosition.z
